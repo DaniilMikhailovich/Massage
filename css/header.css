@@ -1,7 +1,17 @@
-
+nav {
+	margin-top: 10px;
+}
 
 .social {
 	float: left;
+}
+
+.social>li {
+	float:left;
+}
+
+.social>li:not(:last-child) {
+	margin-right: 10px;
 }
 
 .phone {
@@ -12,7 +22,6 @@
 	float: left;
 	display: flex;
 	justify-content: space-around;
-	margin-top: 10px;
 	width: 100%;
 	height: 100%;
 }
