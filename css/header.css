@@ -1,0 +1,23 @@
+nav::after {
+	content: "";
+	display: table;
+	clear: both;
+	height: 5px;
+	border: 1px solid;
+}
+ul:first-child>li {
+	float: left;
+}
+ul:first-child>li:not(:last-child) {
+	margin-right: 10px;
+}
+
+ul:last-child {
+	float: right;
+}
+
+ul:nth-child(2) {
+	display: flex;
+	justify-content: space-around;
+
+}
