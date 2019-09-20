@@ -1,28 +1,54 @@
-
-
-.social {
-	float: left;
+header {
+	position: sticky;
+	top: 0;
 }
 
-.phone {
-	float: right;	
-}
-
-.navbar {
-	float: left;
+.social, .navbar{
 	display: flex;
-	justify-content: space-around;
-	margin-top: 10px;
-	width: 100%;
-	height: 100%;
+	justify-content: space-between;
 }
 
-nav::after {
-	content: "";
-	display: block;
-	clear: both;
+.social>li:not(:last-child) {
+	margin-right: 10px;
 }
 
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 4vw;
+	border-bottom: 1px solid #fff;
+	background-color: rgba(0 ,0 ,0 , .8);
+}
+
+ul{
+	color: #FFF;
+}
+
+.phone>li>a{
+	color: #fff;
+	margin-right: 4vw;
+	font-size: 20px;
+}
+
+.phone>li>a:hover{
+	color: rgb(238, 202, 0);
+	font-size: 30px;
+}
+
+.navbar>li>a{
+	color: #fff;
+	font-family: 'Playball', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 30px;
+}
+.navbar>li>a:hover{
+	border: 1px solid rgb(148, 37, 37);
+	border-radius: 25px;
+	padding: 4px 29px;
+	background: linear-gradient(to bottom right, rgba(129, 10, 10, .7), rgba(17, 3, 146, 0.7));
+}
 
 
 
@@ -34,6 +60,15 @@ nav::after {
 	clear: both;
 	height: 5px;
 	border: 1px solid;
+}
+.social>li {
+	float: left;
+}
+nav::after {
+	content: "";
+	height: 100%;
+	display: block;
+	clear: both;
 }
 ul:first-child>li {
 	float: left;

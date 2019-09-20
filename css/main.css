@@ -1,0 +1,18 @@
+body {
+	background: fixed url("../img/main1-bg.jpg")  center center no-repeat;
+	background-size: cover;
+}
+main {
+	background-color: rgba(17, 3, 146, 0.7);
+}
+
+h1{
+	font-size: 80px;
+	color:  #ff4d4d;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-shadow: -3px -1px 1px 1px #990000;
+}
