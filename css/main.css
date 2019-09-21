@@ -13,7 +13,7 @@ h1{
 .logo {
 	display: block;
 	width: 60%;
-	padding: 50px 0;
+	padding: 11vw 0 5vw 0;
 }
 
 section>h2{
@@ -22,12 +22,12 @@ section>h2{
 	font-size: 8vw;
 	text-align: center;
 	box-shadow: 0 20px 8px -20px rgb(177, 14, 14);
-	text-shadow: 2px 1px #990000;
+	text-shadow: 2px 1px rgba(17, 3, 146, 0.9);;
 }
 section{
 	background: 
-	url(../img/bg-img-1.png) 150px 100px no-repeat,
-	url(../img/bg-img-2.png) 970px 400px no-repeat;
+	url(../img/bg-img-1.png) 13vw 11vw no-repeat,
+	url(../img/bg-img-2.png) 65vw 40vw no-repeat;
 	background-size: 20%, 20%;
 } 
 section>.description{
@@ -35,7 +35,7 @@ section>.description{
 	color: white;
 	font-family: 'Playball', cursive;
 	font-size: 2vw;
-	margin-top: 5vw;
+	padding: 9vw 0;
 	text-indent: 5vw;
 	line-height: 2.2vw;
 	letter-spacing: 0.4vw;
