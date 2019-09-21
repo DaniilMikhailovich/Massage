@@ -2,7 +2,8 @@ section.service{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	width: 100%;
+    width: 100%;
+    box-shadow: 0px -10px 15px -6px rgba(17, 3, 146, 0.9);
 	background: initial;
 	background-color: rgba(17, 3, 146, 0.9);
 }
@@ -12,17 +13,58 @@ section.service{
     flex-wrap: wrap;
 }
 article{
-    margin-top: 7vw;
+    padding: 7vw 0;
     perspective: 1000px;
     transform-style: preserve-3d;
 }
 .card-item{
-    background-color: red;
+    text-align: center;
+    border: 2px solid red;
+    color: white;
+    font-family: 'Playball', cursive;
+    font-size: 2.1vw;
     width: 17vw;
-    height: 20vw;
+    height: 27vw;
     transition: transform 0.2s;
     -webkit-transition: transform 0.2s;
     -moz-transition: transform 0.2s;
     -ms-transition: transform 0.2s;
     -o-transition: transform 0.2s;
+
+}
+
+.card-item .old-price{
+    margin-right: 10%;
+    padding: 0.2vw 0.4vw;
+    border: 0.5vw solid rgb(185, 176, 176);
+    border-radius: 7vw;
+    text-decoration: line-through;
+    text-decoration-color: rgb(177, 14, 14);
+    background-color: rgb(185, 176, 176);
+}
+.card-item .new-price{
+    padding: 0.2vw 0.4vw;
+    color: brown;
+    border: 0.5vw solid rgb(241, 245, 39);
+    border-radius: 7vw;
+    background-color: rgb(241, 245, 39);
+}
+.card-item p {
+    margin-bottom: 2vh;
+}
+article img{
+    width: 100%;
+}
+
+@media only screen and (max-device-width: 480px) {
+	section.service{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-item{
+        width: 35vh;
+        font-size: 4vh;
+        height: 50vh;
+    }
+
 }
