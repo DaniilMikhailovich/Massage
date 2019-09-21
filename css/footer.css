@@ -1,0 +1,86 @@
+footer {
+    background-color: rgb(194, 11, 11);
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+    padding: 1vh 0;
+}
+
+.logo-footer {
+	display: block;
+	width: 15%;
+    padding: 1.5vh 0;
+    margin-left: 2vw;
+}
+
+.rights {
+    font-family: 'Playball', cursive;
+    font-size: 3vh;
+}
+
+.sup {
+    vertical-align: super;
+    font-size: 2vh;
+}
+
+.phone-footer>li>a{
+	color: #fff;
+	font-family: 'Playball', cursive;
+	margin-right: 2vw;
+	font-size: 1.5vw;
+}
+
+.phone-footer>li::before {
+	content: ' ';
+	background: url("../img/call.svg") left no-repeat;
+	background-size: contain;
+	display: inline-block;
+	min-width: 1.5vw;
+	min-height: 1.5vw;
+	margin-right: 1vw;
+}
+
+.phone-footer>li:hover::before{
+	content: ' ';
+	background: url("../img/call_hover.svg") left no-repeat;
+	background-size: contain;
+	display: inline-block;
+	min-width: 1.5vw;
+	min-height: 1.5vw;
+	margin-right: 1vw;
+	transition:all 200ms ease;
+	-webkit-transition:all 200ms ease;
+	-moz-transition:all 200ms ease;
+	-ms-transition:all 200ms ease;
+	-o-transition:all 200ms ease;
+}
+
+.phone-footer>li>a:hover{
+	color:  rgb(251, 255, 194);	
+	transition:all 200ms ease;
+	-webkit-transition:all 200ms ease;
+	-moz-transition:all 200ms ease;
+	-ms-transition:all 200ms ease;
+	-o-transition:all 200ms ease;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .rights {
+        font-family: 'Playball', cursive;
+        font-size: 3vw;
+    }
+    
+    .sup {
+        vertical-align: super;
+        font-size: 2vw;
+    }
+
+    .phone-footer>li>a{
+        font-size: 1vh;
+    }
+
+    .logo-footer {
+        margin-right: 8vw;
+        margin-left: 2vw;
+    }
+}
