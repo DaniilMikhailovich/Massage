@@ -1,0 +1,28 @@
+section.service{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	background: initial;
+	background-color: rgba(17, 3, 146, 0.9);
+}
+
+.service>h2.service-title{
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+article{
+    margin-top: 7vw;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.card-item{
+    background-color: red;
+    width: 17vw;
+    height: 20vw;
+    transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -ms-transition: transform 0.2s;
+    -o-transition: transform 0.2s;
+}

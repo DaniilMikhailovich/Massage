@@ -19,7 +19,7 @@ h1{
 section>h2{
 	color: rgb(194, 11, 11);
 	font-family: 'Playball', cursive;
-	font-size: 58px;
+	font-size: 8vw;
 	text-align: center;
 	box-shadow: 0 20px 8px -20px rgb(177, 14, 14);
 	text-shadow: 2px 1px #990000;
@@ -34,26 +34,13 @@ section>.description{
 	display: block;
 	color: white;
 	font-family: 'Playball', cursive;
-	font-size: 25px;
-	margin-top: 80px;
-	text-indent: 60px;
-	line-height: 40px;
-	letter-spacing: 3px;
+	font-size: 2vw;
+	margin-top: 5vw;
+	text-indent: 5vw;
+	line-height: 2.2vw;
+	letter-spacing: 0.4vw;
 }
 section>.container{
-	width: 55%;
+	width: 60vw
 }
 
-section.service{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	width: 100%;
-	min-height: 500px;
-	background: initial;
-	background-color: rgba(17, 3, 146, 0.9);
-}
-
-section.service>h2{
-	flex-basis: 100%;
-}
