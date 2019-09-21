@@ -7,14 +7,13 @@ main {
 }
 
 h1{
-	font-size: 10vw;
-	color:  #ff4d4d;
-	font-weight: bold;
-	text-align: center;
-	padding: 5vw 0;
-	text-transform: uppercase;
-	letter-spacing: 10px;
-	text-shadow: -3px -1px 1px 1px #990000;
+	display: none;
+}
+
+.logo {
+	display: block;
+	width: 60%;
+	padding: 50px 0;
 }
 
 section>h2{
@@ -28,7 +27,7 @@ section>h2{
 section{
 	background: 
 	url(../img/bg-img-1.png) 150px 100px no-repeat,
-	url(../img/bg-img-2.png) 800px 400px no-repeat;
+	url(../img/bg-img-2.png) 970px 400px no-repeat;
 	background-size: 20%, 20%;
 } 
 section>.description{
@@ -45,8 +44,3 @@ section>.container{
 	width: 60vw
 }
 
-/* @media only screen and (max-device-width: 480px) {
-	h1{
-
-	}
-} */
