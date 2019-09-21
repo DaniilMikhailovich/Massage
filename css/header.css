@@ -17,12 +17,6 @@ header {
 	min-width: 25px;
 	min-height: 25px;
 	margin-left: 10px;
-	border: 1px solid transparent;
-	border-radius: 10%;
-	-webkit-border-radius: 10%;
-	-moz-border-radius: 10%;
-	-ms-border-radius: 10%;
-	-o-border-radius: 10%;
 	transition:all 200ms ease;
 	-webkit-transition:all 200ms ease;
 	-moz-transition:all 200ms ease;
@@ -69,7 +63,6 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	height: 4vw;
-	/* border-bottom: 1px solid #fff; */
 	background-color: rgba(0 ,0 ,0 , .9);
 }
 
