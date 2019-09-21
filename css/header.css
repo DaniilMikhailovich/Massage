@@ -6,17 +6,17 @@ header {
 .social, .navbar{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .social>li:not(:last-child) {
-	margin-right: 10px;
+	margin-right: 1vw;
 }
 
 .social a {
 	display: block;
-	min-width: 25px;
-	min-height: 25px;
-	margin-left: 10px;
+	min-width: 2vw;
+	min-height: 2vw;
 	border: 1px solid transparent;
 	border-radius: 10%;
 	-webkit-border-radius: 10%;
@@ -61,7 +61,7 @@ header {
 }
 
 .social {
-	padding-left: 20px;
+	margin-left: 2vw;
 }
 
 nav {
@@ -80,8 +80,8 @@ ul{
 .phone>li>a{
 	color: #fff;
 	font-family: 'Playball', cursive;
-	margin-right: 4vw;
-	font-size: 16px;
+	margin-right: 2vw;
+	font-size: 1.5vw;
 }
 
 .phone>li::before {
@@ -89,9 +89,9 @@ ul{
 	background: url("../img/call.svg") left no-repeat;
 	background-size: contain;
 	display: inline-block;
-	min-width: 18px;
-	min-height: 18px;
-	margin-right: 8px;
+	min-width: 1.5vw;
+	min-height: 1.5vw;
+	margin-right: 1vw;
 }
 
 .phone>li:hover::before{
@@ -99,9 +99,9 @@ ul{
 	background: url("../img/call_hover.svg") left no-repeat;
 	background-size: contain;
 	display: inline-block;
-	min-width: 18px;
-	min-height: 18px;
-	margin-right: 8px;
+	min-width: 1.5vw;
+	min-height: 1.5vw;
+	margin-right: 1vw;
 	transition:all 200ms ease;
 	-webkit-transition:all 200ms ease;
 	-moz-transition:all 200ms ease;
@@ -121,20 +121,37 @@ ul{
 .navbar>li>a{
 	color: #fff;
 	font-family: 'Playball', cursive;
-	font-size: 20px;
+	font-size: 1.4vw;
 	text-transform: uppercase;
-	padding: 5px 30px;
-	border-radius: 25px;
+	padding: 0.3vw 1vw;
+	border-radius: 2vw;
 	border: 1px solid transparent;
+	-webkit-border-radius: 2vw;
+	-moz-border-radius: 2vw;
+	-ms-border-radius: 2vw;
+	-o-border-radius: 2vw;
 }
 .navbar>li>a:hover{
 	border: 1px solid rgb(148, 37, 37);
-	border-radius: 25px;
-	padding: 5px 30px;
+	border-radius: 2vw;
+	padding: 0.3vw 1vw;
 	background: linear-gradient(to bottom right, rgba(129, 10, 10, .7), rgba(17, 3, 146, 0.7));
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
+	-webkit-border-radius: 2vw;
+	-moz-border-radius: 2vw;
+	-ms-border-radius: 2vw;
+	-o-border-radius: 2vw;
+}
+
+@media only screen and (max-device-width: 480px) {
+	nav .container{
+		display: none;
+	}
+	nav {
+		height: 10vw;
+	}
 }
