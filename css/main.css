@@ -13,7 +13,10 @@ h1{
 .logo {
 	display: block;
 	width: 60%;
-	padding: 11vw 0 5vw 0;
+	padding: 40vw 0 5vw 0;
+	content: " ";
+	background: url("../img/Logo.png") center center no-repeat;
+	background-size: contain;
 }
 
 section>h2{
@@ -44,3 +47,18 @@ section>.container{
 	width: 60vw
 }
 
+@media only screen and (max-device-width: 480px) {
+	.logo {
+		background-image: url("../img/Logo-mobile.png");
+		display: block;
+		width: 95%;
+		padding: 110vw 0 5vw 0;
+		content: " ";
+		background-size: contain;
+	}
+
+	body {
+		background: fixed url("../img/main-bg-mobile.jpg") no-repeat;
+		background-size: contain;
+	}
+}
