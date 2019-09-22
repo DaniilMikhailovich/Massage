@@ -30,21 +30,28 @@ section>h2{
 section{
 	background: 
 	url(../img/bg-img-1.png) 13vw 11vw no-repeat,
-	url(../img/bg-img-2.png) 65vw 40vw no-repeat;
+	url(../img/bg-img-2.png) 65vw 29vw no-repeat;
 	background-size: 20%, 20%;
 } 
 section>.description{
 	display: block;
 	color: white;
-	font-family: 'Roboto', sans-serif;
-	font-size: 2vw;
+	font-family: 'PT sans', sans-serif;
+	font-size: 2.5vw;
 	padding: 9vw 0;
-	text-indent: 5vw;
-	line-height: 2.2vw;
-	letter-spacing: 0.1vw;
+	/* text-indent: 5vw; */
+	line-height: 2.5vw;
+	letter-spacing: 0.01vw;
+	text-align: center;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);;
 }
 section>.container{
 	width: 60vw
+}
+
+.underline {
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -61,4 +68,23 @@ section>.container{
 		background: fixed url("../img/main-bg-mobile.jpg") no-repeat;
 		background-size: contain;
 	}
+
+	section>h2{
+		font-size: 9vh;
+	}
+
+	section>.container {
+		width: 95vw;
+	}
+
+	section>.description {
+		font-size: 3vh;
+		line-height: 3vh;
+		letter-spacing: 0.01vh;
+
+	}
+
+	section{
+		background: none;
+	} 
 }
