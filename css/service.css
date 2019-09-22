@@ -3,9 +3,9 @@ section.service{
 	flex-wrap: wrap;
 	justify-content: space-around;
     width: 100%;
-    box-shadow: 0px -10px 15px -6px rgba(17, 3, 146, 0.9);
+    box-shadow: 0px 5px 1vw 0px rgba(139, 139, 139, 0.7), 0px -5px 1vw 0px rgba(139, 139, 139, 0.7);
 	background: initial;
-	background-color: rgba(17, 3, 146, 0.9);
+	background-color: rgba(139, 139, 139, 0.7);
 }
 
 .service>h2.service-title{

@@ -3,7 +3,7 @@ body {
 	background-size: cover;
 }
 main {
-	background-color: rgba(17, 3, 146, 0.7);
+	background-color: rgba(128, 77, 116, 0.7);
 }
 
 h1{
@@ -33,12 +33,12 @@ section{
 section>.description{
 	display: block;
 	color: white;
-	font-family: 'Playball', cursive;
+	font-family: 'Roboto', sans-serif;
 	font-size: 2vw;
 	padding: 9vw 0;
 	text-indent: 5vw;
 	line-height: 2.2vw;
-	letter-spacing: 0.4vw;
+	letter-spacing: 0.1vw;
 }
 section>.container{
 	width: 60vw
