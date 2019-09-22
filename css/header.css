@@ -19,12 +19,6 @@ header {
 	display: block;
 	min-width: 2vw;
 	min-height: 2vw;
-	border: 1px solid transparent;
-	border-radius: 10%;
-	-webkit-border-radius: 10%;
-	-moz-border-radius: 10%;
-	-ms-border-radius: 10%;
-	-o-border-radius: 10%;
 	transition:all 200ms ease;
 	-webkit-transition:all 200ms ease;
 	-moz-transition:all 200ms ease;
@@ -153,6 +147,33 @@ ul{
 		display: none;
 	}
 	nav {
-		height: 10vw;
+		height: 15vw;
+		background-color: rgba(0 ,0 ,0 , .96);
+	}
+
+	.social a {
+		min-width: 3.5vh;
+		min-height: 3.5vh;
+	}
+
+	.social>li:not(:last-child) {
+		margin-right: 2.5vh;
+	}
+
+	.phone>li>a{
+		color: #fff;
+		font-family: 'Playball', cursive;
+		margin-right: 2vw;
+		font-size: 1.5vw;
+	}
+
+	.phone>li::before {
+		content: ' ';
+		background: url("../img/call.svg") left no-repeat;
+		background-size: contain;
+		display: inline-block;
+		min-width: 1.5vw;
+		min-height: 1.5vw;
+		margin-right: 1vw;
 	}
 }
