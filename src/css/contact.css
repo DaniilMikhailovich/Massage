@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 .social-btn {
 	display: flex;
 	justify-content: center;
@@ -28,7 +31,7 @@
 }
 
 .vk-btn {
-	background: url("../img/vk.svg") 2.5vw center no-repeat;
+	background: url("../../dist/img/vk.min.svg") 2.5vw center no-repeat;
 	background-size: 22%;
 }
 
@@ -36,7 +39,7 @@
 	padding: 0.8vw 3.8vw 0.8vw 6.8vw;
  	border: 0.3vw solid rgb(12, 79, 202);
 	border-radius: 1.5vw;
-	background: url("../img/vk.svg") 2.4vw center no-repeat;
+	background: url("../../dist/img/vk.min.svg") 2.4vw center no-repeat;
 	background-size: 22%;
 	position: relative;
 	transform: scale(1.1);
@@ -44,12 +47,12 @@
 
 .wa-btn {
 	margin-top: 1.5vw;
-	background: url("../img/wa.svg") 3vw center no-repeat;
+	background: url("../../dist/img/wa.min.svg") 3vw center no-repeat;
 	background-size: 11%;
 }
 
 .wa-btn:hover {
-	background: url("../img/wa.svg") 2.8vw center no-repeat;
+	background: url("../../dist/img/wa.min.svg") 2.8vw center no-repeat;
 	background-size: 11%;
 	padding: 0.8vw 3.8vw 0.8vw 6.8vw;
  	border: 0.3vw solid rgb(14, 153, 14);
@@ -60,12 +63,12 @@
 
 .insta-btn {
 	margin-left: 2vw;
-	background: url("../img/insta.svg") 3vw center no-repeat;
+	background: url("../../dist/img/insta.min.svg") 3vw center no-repeat;
 	background-size: 18%;
 }
 
 .insta-btn:hover {
-	background: url("../img/insta.svg") 2.8vw center no-repeat;
+	background: url("../../dist/img/insta.min.svg") 2.8vw center no-repeat;
 	background-size: 18%;
 	padding: 0.8vw 3.8vw 0.8vw 6.8vw;
  	border: 0.3vw solid rgb(158, 4, 145);
@@ -95,7 +98,7 @@
 	}
 
 	.vk-btn {
-		background: url("../img/vk.svg") 2.5vw center no-repeat;
+		background: url("../../dist/img/vk.min.svg") 2.5vw center no-repeat;
 		background-size: contain;
 	}
 	
@@ -103,7 +106,7 @@
 		padding: 2vh 4vh 2vh 7vh;
 		border: 0.1vw solid #ffffff;
 		border-radius: 1.5vw;
-		background: url("../img/vk.svg") 2.4vw center no-repeat;
+		background: url("../../dist/img/vk.min.svg") 2.4vw center no-repeat;
 		background-size: contain;
 		position: relative;
 		transform: scale(1.0);
@@ -111,13 +114,13 @@
 	
 	.wa-btn {
 		margin-top: 0;
-		background: url("../img/wa.svg") 3vw center no-repeat;
+		background: url("../../dist/img/wa.min.svg") 3vw center no-repeat;
 		background-size: 15%;
 		word-spacing: -0.9vw;
 	}
 	
 	.wa-btn:hover {
-		background: url("../img/wa.svg") 2.8vw center no-repeat;
+		background: url("../../dist/img/wa.min.svg") 2.8vw center no-repeat;
 		background-size: 15%;
 		padding: 2vh 4vh 2vh 7vh;
 		border: 0.1vw solid #ffffff;
@@ -128,12 +131,12 @@
 	
 	.insta-btn {
 		margin-left: 0vw;
-		background: url("../img/insta.svg") 3vw center no-repeat;
+		background: url("../../dist/img/insta.min.svg") 3vw center no-repeat;
 		background-size: 15%;
 	}
 	
 	.insta-btn:hover {
-		background: url("../img/insta.svg") 2.8vw center no-repeat;
+		background: url("../../dist/img/insta.min.svg") 2.8vw center no-repeat;
 		background-size: 15%;
 		padding: 2vh 4vh 2vh 7vh;
 		border: 0.1vw solid #ffffff;

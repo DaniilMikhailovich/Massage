@@ -32,7 +32,7 @@ footer {
 
 .phone-footer>li::before {
 	content: ' ';
-	background: url("../img/call.svg") left no-repeat;
+	background: url("../../dist/img/call.min.svg") left no-repeat;
 	background-size: contain;
 	display: inline-block;
 	min-width: 1.5vw;
@@ -42,7 +42,7 @@ footer {
 
 .phone-footer>li:hover::before{
 	content: ' ';
-	background: url("../img/call_hover.svg") left no-repeat;
+	background: url("../../dist/img/call_hover.min.svg") left no-repeat;
 	background-size: contain;
 	display: inline-block;
 	min-width: 1.5vw;

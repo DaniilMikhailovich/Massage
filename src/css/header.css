@@ -31,32 +31,32 @@ header {
 }
 
 .vk {
-	background: url("../img/vk.svg") no-repeat;
+	background: url("../../dist/img/vk.min.svg") no-repeat;
 	background-size: contain;
 }
 
 .vk:hover {
-	background: url("../img/vk_hover.svg") no-repeat;
+	background: url("../../dist/img/vk_hover.min.svg") no-repeat;
 	background-size: contain;
 }
 
 .inst {
-	background: url("../img/insta.svg") no-repeat;
+	background: url("../../dist/img/insta.min.svg") no-repeat;
 	background-size: contain;
 }
 
 .inst:hover {
-	background: url("../img/insta_hover.svg") no-repeat;
+	background: url("../../dist/img/insta_hover.min.svg") no-repeat;
 	background-size: contain;
 }
 
 .wa {
-	background: url("../img/wa.svg") no-repeat;
+	background: url("../../dist/img/wa.min.svg") no-repeat;
 	background-size: contain;
 }
 
 .wa:hover {
-	background: url("../img/wa_hover.svg") no-repeat;
+	background: url("../../dist/img/wa_hover.min.svg") no-repeat;
 	background-size: contain;
 }
 
@@ -85,7 +85,7 @@ ul{
 
 .phone>li::before {
 	content: ' ';
-	background: url("../img/call.svg") left no-repeat;
+	background: url("../../dist/img/call.min.svg") left no-repeat;
 	background-size: contain;
 	display: inline-block;
 	min-width: 1.5vw;
@@ -95,7 +95,7 @@ ul{
 
 .phone>li:hover::before{
 	content: ' ';
-	background: url("../img/call_hover.svg") left no-repeat;
+	background: url("../../dist/img/call_hover.min.svg") left no-repeat;
 	background-size: contain;
 	display: inline-block;
 
@@ -175,7 +175,7 @@ ul{
 
 	.phone>li::before {
 		content: ' ';
-		background: url("../img/call.svg") left no-repeat;
+		background: url("../../dist/img/call.min.svg") left no-repeat;
 		background-size: contain;
 		display: inline-block;
 		min-width: 2vh;
