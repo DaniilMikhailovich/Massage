@@ -11,6 +11,10 @@ header {
 	align-items: center;
 }
 
+.navbar {
+	margin-left: 8vw;
+}
+
 .social>li:not(:last-child) {
 	margin-right: 1vw;
 }
@@ -28,32 +32,32 @@ header {
 
 .vk {
 	background: url("../img/vk.svg") no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .vk:hover {
 	background: url("../img/vk_hover.svg") no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .inst {
 	background: url("../img/insta.svg") no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .inst:hover {
 	background: url("../img/insta_hover.svg") no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .wa {
 	background: url("../img/wa.svg") no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .wa:hover {
 	background: url("../img/wa_hover.svg") no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .social {
@@ -94,9 +98,7 @@ ul{
 	background: url("../img/call_hover.svg") left no-repeat;
 	background-size: contain;
 	display: inline-block;
-	min-width: 1.5vw;
-	min-height: 1.5vw;
-	margin-right: 1vw;
+
 	transition:all 200ms ease;
 	-webkit-transition:all 200ms ease;
 	-moz-transition:all 200ms ease;
@@ -156,6 +158,10 @@ ul{
 		min-height: 3.5vh;
 	}
 
+.social li:first-child {
+	margin-left: 2vh;
+}
+
 	.social>li:not(:last-child) {
 		margin-right: 2.5vh;
 	}
@@ -163,8 +169,8 @@ ul{
 	.phone>li>a{
 		color: #fff;
 		font-family: 'Playball', cursive;
-		margin-right: 2vw;
-		font-size: 1.5vw;
+		margin-right: 2vh;
+		font-size: 2vh;
 	}
 
 	.phone>li::before {
@@ -172,8 +178,8 @@ ul{
 		background: url("../img/call.svg") left no-repeat;
 		background-size: contain;
 		display: inline-block;
-		min-width: 1.5vw;
-		min-height: 1.5vw;
-		margin-right: 1vw;
+		min-width: 2vh;
+		min-height: 2vh;
+		margin-right: 1vh;
 	}
 }

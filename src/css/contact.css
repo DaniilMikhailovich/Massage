@@ -17,8 +17,6 @@
  display: block;
  font-family: 'Playball', cursive;
  font-size: 1.5vw;
- min-width: 2.5vw;
- min-height: 0.5vw;
  padding: 1vw 4vw 1vw 7vw;
  border: 0.1vw solid #ffffff;
  border-radius: 1.5vw;
@@ -74,4 +72,73 @@
 	border-radius: 1.5vw;
 	position: relative;
 	transform: scale(1.1);
+}
+
+@media only screen and (max-device-width: 480px) {
+	.social-btn>li>a {
+		font-size: 3vh;
+		padding: 2vh 4vh 2vh 7vh;
+		min-width: 85vw;
+		border: 0.1vw solid #ffffff;
+		border-radius: 1.5vw;
+		-webkit-border-radius: 1.5vw;
+		-moz-border-radius: 1.5vw;
+		-ms-border-radius: 1.5vw;
+		-o-border-radius: 1.5vw;
+		margin-bottom: 3.5vh;
+	}
+
+	.social-btn {
+		flex-wrap: wrap;
+		width: 90%;
+		padding: 5vh 0;
+	}
+
+	.vk-btn {
+		background: url("../img/vk.svg") 2.5vw center no-repeat;
+		background-size: contain;
+	}
+	
+	.vk-btn:hover {
+		padding: 2vh 4vh 2vh 7vh;
+		border: 0.1vw solid #ffffff;
+		border-radius: 1.5vw;
+		background: url("../img/vk.svg") 2.4vw center no-repeat;
+		background-size: contain;
+		position: relative;
+		transform: scale(1.0);
+	}
+	
+	.wa-btn {
+		margin-top: 0;
+		background: url("../img/wa.svg") 3vw center no-repeat;
+		background-size: 15%;
+		word-spacing: -0.9vw;
+	}
+	
+	.wa-btn:hover {
+		background: url("../img/wa.svg") 2.8vw center no-repeat;
+		background-size: 15%;
+		padding: 2vh 4vh 2vh 7vh;
+		border: 0.1vw solid #ffffff;
+		border-radius: 1.5vw;
+		position: relative;
+		transform: scale(1.0);
+	}
+	
+	.insta-btn {
+		margin-left: 0vw;
+		background: url("../img/insta.svg") 3vw center no-repeat;
+		background-size: 15%;
+	}
+	
+	.insta-btn:hover {
+		background: url("../img/insta.svg") 2.8vw center no-repeat;
+		background-size: 15%;
+		padding: 2vh 4vh 2vh 7vh;
+		border: 0.1vw solid #ffffff;
+		border-radius: 1.5vw;
+		position: relative;
+		transform: scale(1.0);
+	}
 }
